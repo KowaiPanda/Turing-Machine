@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPlay, FaPause, FaStepForward, FaRedo, FaStop } from 'react-icons/fa';
+import { FaPlay, FaPause, FaStepForward, FaRedo} from 'react-icons/fa';
 
 interface SimulatorControlsProps {
     onRun: () => void;
