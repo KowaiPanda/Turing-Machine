@@ -55,6 +55,7 @@ export default function Home() {
         if (intervalId !== null) {
             clearInterval(intervalId);
             runIntervalRef.current = null;
+            console.log(`Cleared interval in ${logContext}`);
         }
     }, []);
 
